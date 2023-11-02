@@ -5,7 +5,7 @@ pipeline {
         stage('stage1') {
             steps {
                 echo 'git checkout'
-                git 'https://github.com/sebsto/webapp.git'
+                git 'https://github.com/nehrusai/webapp.git'
             }
         }
         stage('stage2'){
